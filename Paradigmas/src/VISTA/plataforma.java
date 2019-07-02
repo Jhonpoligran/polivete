@@ -1642,7 +1642,7 @@ else JOptionPane.showMessageDialog(null, "VERIFIQUE LOS DATOS : * " +campo);
     private void jMItemExcellActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMItemExcellActionPerformed
         Runtime AplicExcel = Runtime.getRuntime();
         try {
-            AplicExcel.exec(" C:/Program Files (x86)/Microsoft Office/Office14/EXCEL.EXE");
+            AplicExcel.exec(" C:/Program Files (x86)/Microsoft Office/root/Office16/EXCEL.EXE");
         } catch (Exception EX) {
         }
     }//GEN-LAST:event_jMItemExcellActionPerformed
@@ -1650,7 +1650,7 @@ else JOptionPane.showMessageDialog(null, "VERIFIQUE LOS DATOS : * " +campo);
     private void jMItemPPTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMItemPPTActionPerformed
         Runtime AplicPowerPoint = Runtime.getRuntime();
         try {
-            AplicPowerPoint.exec("C:/Program Files (x86)/Microsoft Office/Office14/POWERPNT.EXE");
+            AplicPowerPoint.exec("C:/Program Files (x86)/Microsoft Office/root/Office16/POWERPNT.EXE");
         } catch (Exception PP) {
         }
     }//GEN-LAST:event_jMItemPPTActionPerformed
@@ -1658,7 +1658,7 @@ else JOptionPane.showMessageDialog(null, "VERIFIQUE LOS DATOS : * " +campo);
     private void jMItemWordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMItemWordActionPerformed
         Runtime AplicWord = Runtime.getRuntime();
         try {
-            AplicWord.exec("C:/Program Files (x86)/Microsoft Office/Office14/WINWORD.EXE");
+            AplicWord.exec("C:/Program Files (x86)/Microsoft Office/root/Office16/WINWORD.EXE");
         } catch (Exception WO) {
         }
     }//GEN-LAST:event_jMItemWordActionPerformed

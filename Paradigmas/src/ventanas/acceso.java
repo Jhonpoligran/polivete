@@ -75,7 +75,7 @@ String  codigo=jtxtCodigo.getText();
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 102, 0));
+        jPanel1.setBackground(new java.awt.Color(204, 0, 51));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jbtnEntrar.setBackground(new java.awt.Color(0, 0, 0));
@@ -113,7 +113,7 @@ String  codigo=jtxtCodigo.getText();
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Imagen2.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 170, 150));
 
-        jtxtContraseña.setBackground(new java.awt.Color(255, 102, 51));
+        jtxtContraseña.setBackground(new java.awt.Color(204, 0, 51));
         jtxtContraseña.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
         jtxtContraseña.setForeground(new java.awt.Color(255, 255, 255));
         jtxtContraseña.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -126,7 +126,7 @@ String  codigo=jtxtCodigo.getText();
         jLabel6.setText("Poligran 2019");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, -1, 20));
 
-        jtxtCodigo.setBackground(new java.awt.Color(255, 102, 51));
+        jtxtCodigo.setBackground(new java.awt.Color(204, 0, 51));
         jtxtCodigo.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
         jtxtCodigo.setForeground(new java.awt.Color(255, 255, 255));
         jtxtCodigo.setHorizontalAlignment(javax.swing.JTextField.CENTER);
